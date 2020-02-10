@@ -1,0 +1,7 @@
+-optimizations code/removal/*,code/simplification/advanced,code/allocation/*
+-allowaccessmodification
+-dontwarn com.squareup.picasso.**
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn retrofit2.**
+-keep class com.techworks.eatmubaraklibrary.** { *; }

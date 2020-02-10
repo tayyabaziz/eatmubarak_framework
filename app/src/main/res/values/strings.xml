@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Framework Test</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBFp8JfdQWtFVx2VJM7gXTDlcx1aB9rHv8</string>
+</resources>

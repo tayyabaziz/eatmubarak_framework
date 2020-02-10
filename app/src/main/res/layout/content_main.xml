@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btn_stg_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STAGING RESTAURANTS"/>
+
+    <Button
+        android:id="@+id/btn_stg_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STAGING MENU"/>
+
+    <Button
+        android:id="@+id/btn_stg_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STAGING ORDER"/>
+
+    <Button
+        android:id="@+id/btn_live_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIVE RESTAURANTS"/>
+
+    <Button
+        android:id="@+id/btn_live_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIVE MENU"/>
+
+    <Button
+        android:id="@+id/btn_live_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIVE ORDER"/>
+
+</LinearLayout>

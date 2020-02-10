@@ -1,0 +1,3 @@
+store pass: test123
+alias: test
+key pass: alias123
