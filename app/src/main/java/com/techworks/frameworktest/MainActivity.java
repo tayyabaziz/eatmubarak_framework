@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = EatMubarakWidget.Builder.getBuilder()
                         .setUserInfo(userInfo)                      // User Information Object
                         .setLocation(67.0642024, 24.8786511) // Set Location (Longitude , Latitude)
-                        .setApiKey("kuL52zx69iw")
+                        .setApiKey("your_api_key")
                         .setTimeOut(30)                             // Set Time in Seconds
                         .build(MainActivity.this);          // Your Current Context
                 startActivityForResult(i, intentCode);
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = EatMubarakWidget.Builder.getBuilder()
                         .setUserInfo(userInfo)                      // User Information Object
                         .setLocation(67.0642024, 24.8786511) // Set Location (Longitude , Latitude)
-                        .setApiKey("kuL52zx69iw")
+                        .setApiKey("your_api_key")
                         .setBranchId(203)
                         .setTimeOut(30)
                         .build(MainActivity.this);          // Your Current Context
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = EatMubarakWidget.Builder.getBuilder()
                         .setUserInfo(userInfo)                      // User Information Object
                         .setLocation(67.0642024, 24.8786511) // Set Location (Longitude , Latitude)
-                        .setApiKey("kuL52zx69iw")
+                        .setApiKey("your_api_key")
                         .getOrderList(true)
                         .setTimeOut(30)
                         .build(MainActivity.this);          // Your Current Context
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = EatMubarakWidget.Builder.getBuilder()
                         .setUserInfo(userInfo)                      // User Information Object
                         .setLocation(67.0642024, 24.8786511) // Set Location (Longitude , Latitude)
-                        .setApiKey("kuL52zx69iw")
+                        .setApiKey("your_api_key")
                         .setStaging(false)
                         .setTimeOut(30)
                         .build(MainActivity.this);          // Your Current Context
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = EatMubarakWidget.Builder.getBuilder()
                         .setUserInfo(userInfo)                      // User Information Object
                         .setLocation(67.0642024, 24.8786511) // Set Location (Longitude , Latitude)
-                        .setApiKey("kuL52zx69iw")
+                        .setApiKey("your_api_key")
                         .setBranchId(203)
                         .setStaging(false)                          // Staging By Default
                         .setTimeOut(30)
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = EatMubarakWidget.Builder.getBuilder()
                         .setUserInfo(userInfo)                      // User Information Object
                         .setLocation(67.0642024, 24.8786511) // Set Location (Longitude , Latitude)
-                        .setApiKey("kuL52zx69iw")
+                        .setApiKey("your_api_key")
                         .setStaging(false)
                         .getOrderList(true)
                         .setTimeOut(30)
